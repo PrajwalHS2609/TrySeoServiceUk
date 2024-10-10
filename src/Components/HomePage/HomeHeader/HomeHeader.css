@@ -47,7 +47,7 @@
 .homeHeaderWrapper > p {
   color: grey;
 }
-.homeHeaderWrapper > .homeHeaderBtn > a > button {
+ .homeHeaderBtn > a > button {
   padding: 10px;
   background-color: var(--customColor);
   font-weight: bold;
@@ -100,5 +100,21 @@
   .homeHeaderWrapper > h1 {
     font-size: 40px;
     text-align: center;
+  }
+  .homeHeaderBtn{
+    width: 100%;
+  }
+  .homeHeaderBtn > a > button {
+    padding: 10px;
+    background-color: var(--customColor);
+    font-weight: bold;
+    color: white;
+    border: 2px solid transparent;
+    transition: 300ms ease-in-out;
+    &:hover {
+      background-color: white;
+      color: var(--customColor);
+      border: 2px solid var(--customColor);
+    }
   }
 }

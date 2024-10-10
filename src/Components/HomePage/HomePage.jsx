@@ -5,7 +5,6 @@ import WebsiteClient from "./../WebsitePage/WebsiteClient/WebsiteClient";
 import HomeBook from "./HomeBook/HomeBook";
 import HomeTestimonial from "./HomeTestimonial/HomeTestimonial";
 import HomeWhyUs from "./HomeWhyUs/HomeWhyUs";
-import Footer from "../Footer/Footer";
 import HomeHeader from "./HomeHeader/HomeHeader";
 const HomePage = () => {
   return (
