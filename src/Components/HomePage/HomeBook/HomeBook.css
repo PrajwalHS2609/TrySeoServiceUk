@@ -43,64 +43,74 @@
 }
 
 .homeBookForm {
-  /* border: solid green; */
+  /* border: solid red; */
   width: 100%;
-}
-.homeBookForm > form {
-  /* border: solid yellowgreen; */
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 10px;
-  width: 100%;
-}
-.firstLvl {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 5px;
-  width: 100%;
-}
-.firstLvl > input {
-  outline: none;
-  width: 100%;
-  height: 40px;
+  align-items: center;
   padding: 10px;
 }
-.secondLvl {
-  /* border: solid; */
+.homeBookForm > form {
+  /* border: solid blue; */
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  flex-wrap: wrap;
+  gap: 30px;
+  box-shadow: 0 0 5px grey;
 }
-.secondLvl > span > div {
-  /* border: solid; */
-  width: 300px;
+.firstLvl {
+  width: 100%;
+  /* border: solid green; */
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 5px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.firstLvl > input {
+  /* border: solid; */
+  border: none;
+  outline: none;
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 5px black;
 }
 .secondLvl > p {
+  color: var(--customColor);
   width: 100%;
   text-align: start;
-  color: var(--customColor);
+}
+.secondLvl > span > input[type="radio"] {
+  accent-color: #e56b38;
+}
+
+.secondLvl {
+  /* border: solid brown; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 .secondLvl > span {
   /* border: solid red; */
+  width: 300px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
+  align-items: flex-start;
+  margin: 10px;
 }
-.secondLvl > span > div {
-  font-weight: bold;
+.secondLvl > span > input {
+  border: none;
+  outline: none;
 }
+
 .homeBookForm > form > button {
   padding: 10px;
   color: white;

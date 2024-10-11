@@ -6,6 +6,7 @@ import UpperNav from "./Components/UpperNav/UpperNav";
 import "./Global.css";
 import HomePage from "./Components/HomePage/HomePage";
 import Footer from "./Components/Footer/Footer";
+import ContactUs from "./Components/ContactUs/ContactUs";
 const App = () => {
   return (
     <div className="App">
@@ -14,8 +15,9 @@ const App = () => {
         <NavBar />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/contact-us" element={<ContactUs />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
     </div>
   );
