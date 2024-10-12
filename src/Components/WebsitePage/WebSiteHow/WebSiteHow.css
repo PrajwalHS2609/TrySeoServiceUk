@@ -1,0 +1,139 @@
+.webSiteHow {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.webSiteHowHead {
+  /* border: solid red; */
+  width: 100%;
+  padding: 40px;
+}
+.webSiteHowHead > h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.webSiteHowHead > h2 > span {
+  color: var(--customColor);
+}
+.webSiteHowHead > p {
+  font-size: 18px;
+  color: grey;
+}
+.webSiteHowHead > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.webSiteHowHead > ul > li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 20px;
+  width: 100%;
+  color: grey;
+}
+.webSiteHowMain {
+  /* border: solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.webSiteHowCard {
+  border-bottom: 5px solid transparent;
+  width: 350px;
+  height: 500px;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  transition: 300ms ease-in-out;
+  &:hover {
+    border-bottom: 5px solid var(--customColor);
+  }
+}
+#googleHowMain > .webSiteHowCard {
+  border-bottom: 5px solid transparent;
+  width: 350px;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  transition: 300ms ease-in-out;
+  &:hover {
+    border-bottom: 5px solid var(--customColor);
+  }
+}
+.webSiteHowCard > h3 {
+  width: 300px;
+}
+.webSiteHowCard > p {
+  width: 100%;
+  text-align: justify;
+}
+.webSiteHowImg {
+  /* border: solid red; */
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  overflow: visible;
+  position: relative;
+}
+.webSiteHowImg > img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  padding: 20px;
+}
+.webSiteHowImgCover {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background-color: #fd874354;
+  border-radius: 100%;
+  transition: 300ms ease-in-out;
+}
+#colorChange {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background-color: #2262ec57;
+  border-radius: 100%;
+  transition: 300ms ease-in-out;
+}
+.webSiteHowCard:hover .webSiteHowImgCover,
+.webSiteHowCard:hover #changeColor {
+  transform: translate(20px, 10px);
+}
+.googleAdsIco {
+  color: var(--customColor);
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .webSiteHowCard {
+    border-bottom: 5px solid var(--customColor);
+    border: 1px solid var(--customColor);
+    &:hover {
+      border-bottom: 5px solid var(--customColor);
+    }
+  }
+}

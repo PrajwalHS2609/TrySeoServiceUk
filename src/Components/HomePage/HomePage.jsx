@@ -9,7 +9,7 @@ import HomeHeader from "./HomeHeader/HomeHeader";
 const HomePage = () => {
   return (
     <div className="homeContainer">
-      <HomeHeader/>
+      <HomeHeader />
       <HomeService />
       <HomeWhyUs/>
       <HomeTestimonial/>

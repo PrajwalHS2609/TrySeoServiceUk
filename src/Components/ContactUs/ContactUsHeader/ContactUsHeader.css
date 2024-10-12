@@ -1,0 +1,13 @@
+.contactUsHeader {
+  /* border: solid red; */
+  width: 100%;
+  background-color: var(--customColor);
+  padding: 5px;
+}
+
+.contactUsHeader > h1 {
+  width: 100%;
+  text-align: start;
+  /* font-size: 55px; */
+  color: white;
+}

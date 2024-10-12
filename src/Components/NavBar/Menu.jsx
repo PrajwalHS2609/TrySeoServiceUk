@@ -9,12 +9,12 @@ import {
   faX,
 } from "@fortawesome/free-solid-svg-icons";
 import {
-    faFacebook,
-    faInstagram,
-    faXTwitter,
-    faYoutube,
-    faLinkedin,
-  } from "@fortawesome/free-brands-svg-icons";
+  faFacebook,
+  faInstagram,
+  faXTwitter,
+  faYoutube,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 import menuBar from "./../../Img/menu.png";
 
 const Menu = () => {
@@ -64,7 +64,7 @@ const Menu = () => {
         </li>
         <li>
           <NavLink
-            to="/website-designing-services-in-bangalore"
+            to="/website-designing"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
             Website
@@ -72,7 +72,7 @@ const Menu = () => {
         </li>
         <li>
           <NavLink
-            to="/seo-services-in-bangalore"
+            to="/seo-services"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
             SEO
@@ -80,7 +80,7 @@ const Menu = () => {
         </li>
         <li>
           <NavLink
-            to="/google-ads-service-in-bangalore"
+            to="/google-ads-service"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
             Google Ads
@@ -88,7 +88,7 @@ const Menu = () => {
         </li>
         <li>
           <NavLink
-            to="/social-media-marketing-services-in-bangalore"
+            to="/social-media-marketing-services"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
             Social Media Marketing
@@ -96,7 +96,7 @@ const Menu = () => {
         </li>
         <li>
           <NavLink
-            to="/content-writing-service-in-bangalore"
+            to="/content-writing-service"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
             Content Writing
@@ -113,7 +113,7 @@ const Menu = () => {
           <div className="dropDown" ref={dropRef}>
             <li>
               <NavLink
-                to={"/payment-gateway-service-in-bangalore"}
+                to={"/payment-gateway-service"}
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
                 Payment Gateway
@@ -121,7 +121,7 @@ const Menu = () => {
             </li>
             <li>
               <NavLink
-                to={"/email-marketing-service-in-bangalore"}
+                to={"/email-marketing-service"}
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
                 Email Marketing
@@ -130,7 +130,7 @@ const Menu = () => {
             <li>
               {" "}
               <NavLink
-                to={"/sms-and-whatsapp-marketing-services-in-bangalore"}
+                to={"/sms-and-whatsapp-marketing-services"}
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
                 SMS & WhatsApp Marketing
@@ -178,7 +178,7 @@ const Menu = () => {
               <NavLink
                 id="menuNavLink"
                 onClick={hideSideBar}
-                to={"/website-designing-services-in-bangalore"}
+                to={"/website-designing"}
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
                 Website{" "}
@@ -193,7 +193,7 @@ const Menu = () => {
               <NavLink
                 id="menuNavLink"
                 onClick={hideSideBar}
-                to={"/seo-services-in-bangalore"}
+                to={"/seo-services"}
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
                 SEO{" "}
@@ -208,7 +208,7 @@ const Menu = () => {
               <NavLink
                 id="menuNavLink"
                 onClick={hideSideBar}
-                to={"/google-ads-service-in-bangalore"}
+                to={"/google-ads-service"}
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
                 Google Ads{" "}
@@ -223,7 +223,7 @@ const Menu = () => {
               <NavLink
                 id="menuNavLink"
                 onClick={hideSideBar}
-                to={"/social-media-marketing-services-in-bangalore"}
+                to={"/social-media-marketing-services"}
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
                 Social Media Marketing{" "}
@@ -238,7 +238,7 @@ const Menu = () => {
               <NavLink
                 id="menuNavLink"
                 onClick={hideSideBar}
-                to={"/content-writing-service-in-bangalore"}
+                to={"/content-writing-service"}
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
                 Content Writing{" "}
@@ -263,7 +263,7 @@ const Menu = () => {
                   <NavLink
                     id="menuNavLink"
                     onClick={hideSideBar}
-                    to={"/payment-gateway-service-in-bangalore"}
+                    to={"/payment-gateway-service"}
                     className={({ isActive }) => (isActive ? "active" : "")}
                   >
                     Payment Gateway{" "}
@@ -277,7 +277,7 @@ const Menu = () => {
                   <NavLink
                     id="menuNavLink"
                     onClick={hideSideBar}
-                    to={"/email-marketing-service-in-bangalore"}
+                    to={"/email-marketing-service"}
                     className={({ isActive }) => (isActive ? "active" : "")}
                   >
                     Email Marketing{" "}
@@ -291,7 +291,7 @@ const Menu = () => {
                   <NavLink
                     id="menuNavLink"
                     onClick={hideSideBar}
-                    to={"/sms-and-whatsapp-marketing-services-in-bangalore"}
+                    to={"/sms-and-whatsapp-marketing-services"}
                     className={({ isActive }) => (isActive ? "active" : "")}
                   >
                     SMS Marketing{" "}
@@ -319,7 +319,7 @@ const Menu = () => {
               </NavLink>
             </li>
             <br />
-{/* -------------------------RespSocialMedia------------------------ */}
+            {/* -------------------------RespSocialMedia------------------------ */}
             <div className="menuNavSocial">
               <a href="https://www.facebook.com/tryseoservices">
                 {" "}

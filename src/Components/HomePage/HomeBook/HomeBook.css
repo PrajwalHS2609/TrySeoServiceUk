@@ -81,6 +81,14 @@
   border-radius: 20px;
   box-shadow: inset 0 0 5px black;
 }
+.firstLvl > textarea {
+  border: none;
+  outline: none;
+
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 5px black;
+}
 .secondLvl > p {
   color: var(--customColor);
   width: 100%;
@@ -124,6 +132,7 @@
     color: var(--customColor);
   }
 }
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .homeBook {
     /* border: solid red; */
